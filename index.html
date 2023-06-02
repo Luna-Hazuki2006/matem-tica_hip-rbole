@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/baldor.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>La Hipérbola Matemática</title>
 </head>
 <body>
     <div class="titulo">
@@ -15,16 +15,23 @@
     <div id="definicion" class="informacion">
         <h2>Definición</h2>
         <p>
+            Una hipérbola (del griego ὑπερβολή) es una curva abierta de dos ramas, 
+            obtenida cortando un cono recto mediante un plano no necesariamente 
+            paralelo al eje de simetría, y con ángulo menor que el de la generatriz 
+            respecto del eje de revolución. <br><br>
             En geometría analítica, una hipérbola es el lugar geométrico de los puntos de un plano, 
             tales que el valor absoluto de la diferencia de sus distancias a dos puntos fijos, 
             llamados focos, es igual a la distancia entre los vértices, la cual es una constante positiva. 
             Siendo esta constante menor a la distancia entre los focos.
+            <img class="hiperbola" src="assets/hiperbola.png" alt="una hipérbola">
         </p>
     </div>
     <div id="historia" class="informacion">
         <h2>Historia</h2>
         <p>
-            <img class="foto" src="assets/menecmo.jpg" alt="El señor Menecmo" width="200px">
+            <a href="https://es.wikipedia.org/wiki/Menecmo" target="_blank">
+                <img class="foto" src="assets/menecmo.jpg" alt="El señor Menecmo" width="200px">
+            </a>
             Según la tradición, las secciones cónicas fueron descubiertas por el geómetra y 
             matemático griego Menecmo (380 A. C.- 320 A. C.), en su estudio del problema de la 
             duplicación del cubo, mediante el cual demostró la existencia de una solución usando 
@@ -32,7 +39,9 @@
             también geómetras Proclo y Eratóstenes.
         </p><br>
         <p class="derecha">
-            <img class="imagen" src="assets/apolonio.jpg" alt="El señor Apolonio" width="200px">
+            <a href="https://es.wikipedia.org/wiki/Apolonio_de_Perge" target="_blank">
+                <img class="imagen" src="assets/apolonio.jpg" alt="El señor Apolonio" width="200px">
+            </a>
             Sin embargo, el primero en usar el término hipérbola fue Apolonio de Perge 
             en su tratado Cónicas, considerada la obra cumbre sobre el tema de las matemáticas griegas, 
             y donde se desarrolla el estudio de las tangentes a las secciones cónicas.
@@ -42,7 +51,7 @@
         <h2>Ecuaciones</h2>
         <p>
             Estas dos ecuaciones se utilizan cuando el origen es 
-            la coordena 0,0 en el plano cartesiano: <br>
+            la coordena <span class="diferente">O(0,0)</span> en el plano cartesiano: <br>
             <img src="assets/operacion1.png" alt="una ecuacion para 0,0 cartesiano">
             <img src="assets/operacion2.png" alt="otra ecuacion para 0,0 cartesiano">
             Mientras tanto estas otras son otilizadas cuando el 
@@ -50,13 +59,29 @@
             <img src="assets/operacion3.png" alt="una ecuacion para h,k cartesiano">
             <img src="assets/operacion4.png" alt="otra ecuacion para h,k cartesiano"><br>
             En estas ecuaciones <span class="diferente">a, b</span> y 
-            <span class="Definición">c</span>
+            <span class="diferente">c</span>, representan a los semiejes transverso, 
+            conjugado y focal, respectivamente. En cualquier caso, la relación de estos 
+            siempre va a ser esta: 
+            <span class="diferente">c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></span>
         </p>
     </div>
     <div id="excentricidad" class="informacion">
         <h2>Excentricidad</h2>
         <p>
-            <img src="assets/excentrico.png" alt="">
+            La excentricidad <span class="diferente">e</span> de una hipérbola 
+            es un valor definido como: <br>
+            <img src="assets/excentrico.png" alt="la excentricidad"><br>
+            donde:
+            <ul>
+                <li>
+                    <span class="diferente">c</span> representa la mitad de la distancia del eje focal.
+                </li>
+                <li>
+                    <span class="diferente">a</span> representa la mitad de la distancia del eje mayor.
+                </li>
+            </ul>
+            Ya que <span class="diferente">c</span> es un valor mayor que 
+            <span class="diferente">a</span>, la excentricidad de una hipérbola es siempre mayor que 1.
         </p>
     </div>
 </body>

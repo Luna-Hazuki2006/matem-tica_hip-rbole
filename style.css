@@ -48,6 +48,10 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
+.hiperbola {
+    display: block;
+    margin: auto;
+}
 #definicion {
     background-color: darksalmon;
     border-radius: 15px;
@@ -60,6 +64,11 @@ h2 {
 }
 #ecuaciones {
     background-color: violet;
+    border-radius: 15px;
+    border: 2px dotted black;
+}
+#excentricidad {
+    background-color: goldenrod;
     border-radius: 15px;
     border: 2px dotted black;
 }
