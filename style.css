@@ -1,1 +1,38 @@
+body {
+    /* background-image: url('https://th.bing.com/th/id/OIP.K-0HC-CMxM1YfzG4nRJDOgAAAA?pid=ImgDet'); */
+    background-color: lavender;
+}
 
+.central {
+    text-align: center;
+}
+.titulo {
+    background-color: lightsalmon;
+    border-radius: 15px;
+    border: 2px dotted black;
+}
+.foto {
+    float: left;
+    margin-right: 5px;
+}
+.informacion {
+    margin: auto;
+    width: 50%;
+    margin-top: 40px;
+    padding: 10px;
+}
+.informacion::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#definicion {
+    background-color: darksalmon;
+    border-radius: 15px;
+    border: 2px dotted black;
+}
+#historia {
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: 2px dotted black;
+}
