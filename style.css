@@ -1,9 +1,18 @@
+/*
+    En memoria de lovely-gumdrop-2a6deb
+*/
 body {
-    /* background-image: url('https://th.bing.com/th/id/OIP.K-0HC-CMxM1YfzG4nRJDOgAAAA?pid=ImgDet'); */
     background-color: lavender;
 }
 p {
     font-size: large;
+    font-family: monospace;
+}
+h1 {
+    font-family: 'Book Antiqua';
+}
+h2 {
+    font-family: cursive;
 }
 .central {
     text-align: center;
@@ -35,6 +44,10 @@ p {
 .derecha {
     text-align: right;
 }
+.diferente {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
 #definicion {
     background-color: darksalmon;
     border-radius: 15px;
@@ -42,6 +55,11 @@ p {
 }
 #historia {
     background-color: dodgerblue;
+    border-radius: 15px;
+    border: 2px dotted black;
+}
+#ecuaciones {
+    background-color: violet;
     border-radius: 15px;
     border: 2px dotted black;
 }
