@@ -2,7 +2,9 @@ body {
     /* background-image: url('https://th.bing.com/th/id/OIP.K-0HC-CMxM1YfzG4nRJDOgAAAA?pid=ImgDet'); */
     background-color: lavender;
 }
-
+p {
+    font-size: large;
+}
 .central {
     text-align: center;
 }
@@ -25,6 +27,13 @@ body {
     content: "";
     clear: both;
     display: table;
+}
+.imagen {
+    float: right;
+    margin-left: 5px;
+}
+.derecha {
+    text-align: right;
 }
 #definicion {
     background-color: darksalmon;
