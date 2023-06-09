@@ -75,3 +75,9 @@ footer {
     border-radius: 15px;
     border: 2px dotted black;
 }
+
+@media screen and (max-width: 400px) {
+    * {
+        color: aliceblue;
+    }
+}
