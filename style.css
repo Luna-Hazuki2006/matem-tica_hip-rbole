@@ -34,6 +34,8 @@ footer {
     width: 50%;
     margin-top: 40px;
     padding: 10px;
+    border-radius: 15px;
+    border: 2px dotted black;
 }
 .informacion::after {
     content: "";
@@ -57,23 +59,15 @@ footer {
 }
 #definicion {
     background-color: darksalmon;
-    border-radius: 15px;
-    border: 2px dotted black;
 }
 #historia {
     background-color: dodgerblue;
-    border-radius: 15px;
-    border: 2px dotted black;
 }
 #ecuaciones {
     background-color: violet;
-    border-radius: 15px;
-    border: 2px dotted black;
 }
 #excentricidad {
     background-color: goldenrod;
-    border-radius: 15px;
-    border: 2px dotted black;
 }
 
 @media screen and (max-width: 400px) {
