@@ -16,6 +16,8 @@ h2 {
 }
 footer {
     font-family: fantasy;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
 }
 .central {
     text-align: center;
@@ -28,6 +30,15 @@ footer {
 .foto {
     float: left;
     margin-right: 5px;
+}
+.ejemplo {
+    display: block;
+    padding: 5px;
+    margin: auto;
+    width: 30%;
+}
+.operaciones {
+    width: 60%;
 }
 .informacion {
     margin: auto;
@@ -49,6 +60,9 @@ footer {
 .derecha {
     text-align: right;
 }
+.izquierda {
+    text-align: left;
+}
 .diferente {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -69,9 +83,28 @@ footer {
 #excentricidad {
     background-color: goldenrod;
 }
-
+#elementos {
+    background-color: aqua;
+}
+#polares {
+    background-color: darkseagreen;
+}
 @media screen and (max-width: 400px) {
-    * {
-        color: aliceblue;
+    .informacion {
+        margin: auto;
+        width: 80%;
+        margin-top: 40px;
+        padding: 10px;
+        border-radius: 15px;
+        border: 2px dotted black;
+    }
+    .ejemplo {
+        display: block;
+        padding: 5px;
+        margin: auto;
+        width: 60%;
+    }
+    .operaciones {
+        width: 70%;
     }
 }

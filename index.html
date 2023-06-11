@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/baldor.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>La Hipérbola Matemática</title>
 </head>
@@ -23,14 +26,14 @@
             tales que el valor absoluto de la diferencia de sus distancias a dos puntos fijos, 
             llamados focos, es igual a la distancia entre los vértices, la cual es una constante positiva. 
             Siendo esta constante menor a la distancia entre los focos.
-            <img class="hiperbola" src="assets/hiperbola.png" alt="una hipérbola">
+            <img class="hiperbola" src="assets/hiperbola.png" alt="una hipérbola" width="100%">
         </p>
     </div>
     <div id="historia" class="informacion">
         <h2>Historia</h2>
-        <p>
+        <p class="izquierda">
             <a href="https://es.wikipedia.org/wiki/Menecmo" target="_blank">
-                <img class="foto" src="assets/menecmo.jpg" alt="El señor Menecmo" width="200px">
+                <img class="foto" src="assets/menecmo.jpg" alt="El señor Menecmo" width="31%">
             </a>
             Según la tradición, las secciones cónicas fueron descubiertas por el geómetra y 
             matemático griego Menecmo (380 A. C.- 320 A. C.), en su estudio del problema de la 
@@ -40,7 +43,7 @@
         </p><br>
         <p class="derecha">
             <a href="https://es.wikipedia.org/wiki/Apolonio_de_Perge" target="_blank">
-                <img class="imagen" src="assets/apolonio.jpg" alt="El señor Apolonio" width="200px">
+                <img class="imagen" src="assets/apolonio.jpg" alt="El señor Apolonio" width="31%">
             </a>
             Sin embargo, el primero en usar el término hipérbola fue Apolonio de Perge 
             en su tratado Cónicas, considerada la obra cumbre sobre el tema de las matemáticas griegas, 
@@ -52,12 +55,12 @@
         <p>
             Estas dos ecuaciones se utilizan cuando el origen es 
             la coordena <span class="diferente">O(0,0)</span> en el plano cartesiano: <br>
-            <img src="assets/operacion1.png" alt="una ecuacion para 0,0 cartesiano">
-            <img src="assets/operacion2.png" alt="otra ecuacion para 0,0 cartesiano">
+            <img class="operaciones" src="assets/operacion1.png" alt="una ecuacion para 0,0 cartesiano">
+            <img class="operaciones" src="assets/operacion2.png" alt="otra ecuacion para 0,0 cartesiano">
             Mientras tanto estas otras son otilizadas cuando el 
             origen tiene una coordenada de tipo <span class="diferente">C(h, k):</span><br>
-            <img src="assets/operacion3.png" alt="una ecuacion para h,k cartesiano">
-            <img src="assets/operacion4.png" alt="otra ecuacion para h,k cartesiano"><br>
+            <img class="operaciones" src="assets/operacion3.png" alt="una ecuacion para h,k cartesiano">
+            <img class="operaciones" src="assets/operacion4.png" alt="otra ecuacion para h,k cartesiano"><br>
             En estas ecuaciones <span class="diferente">a, b</span> y 
             <span class="diferente">c</span>, representan a los semiejes transverso, 
             conjugado y focal, respectivamente. En cualquier caso, la relación de estos 
@@ -70,7 +73,7 @@
         <p>
             La excentricidad <span class="diferente">e</span> de una hipérbola 
             es un valor definido como: <br>
-            <img src="assets/excentrico.png" alt="la excentricidad"><br>
+            <img src="assets/excentrico.png" alt="la excentricidad" width="30%"><br>
             donde:
             <ul>
                 <li>
@@ -84,27 +87,57 @@
             <span class="diferente">a</span>, la excentricidad de una hipérbola es siempre mayor que 1.
         </p>
     </div>
-    <div>
-        <h2></h2>
+    <div id="elementos" class="informacion">
+        <h2>Elementos Caraterísticos</h2>
         <p>
-
+            Focos (son dos puntos a los cuales permanece constante la diferencia de distancias 
+            en un valor absoluto a cualquier punto <span class="diferente">x</span> de dicha hipérbolas): 
+            <span class="diferente">F</span> y <span class="diferente">F'</span>.<br>
+            Centro (punto medio de los vértices y de los focos de la hipérbola): 
+            <span class="diferente">O</span>.<br>
+            Semieje: <span class="diferente">a = OA = OA' →</span> Eje mayor: 
+            <span class="diferente">2a = AA'</span>.<br>
+            Semidistancia focal: <span class="diferente">c = OF = OF' →</span> Distancia focal: 
+            <span class="diferente">2c = FF'</span>.<br>
+            Asíntotas (Son las rectas que se intersecan en el centro de la hipérbola 
+            y se acercan a las ramas al alejarse estas del centro de la hipérbola.): 
+            Las rectas <span class="diferente">r</span> y <span class="diferente">r'</span>.<br>
+            La constante <span class="diferente">k = AF - AF' = AF - FA' = AA' = 2a</span>.<br>
+            Además como <span class="diferente">B</span> es un punto de la elipse: <br>
+            <span class="diferente">BF + BF' = 2a</span> y como 
+            <span class="diferente">BF = BF' → BF = a</span> Por lo tanto aplicando Pitágoras se cumple que 
+            <span class="diferente">c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></span> y 
+            <span class="diferente">c > a, b</span>.
         </p>
     </div>
-    <div>
-        <h2></h2>
+    <div id="polares" class="informacion">
+        <h2>Ecuaciones en coordenadas polares</h2>
         <p>
-
+            Hipérbola abierta de derecha a izquierda: 
+            <img class="ejemplo" src="assets/hiperbola2.png" alt="hipérbola abierta de derecha a izquierda" width="50%"><br>
+            <img class="ejemplo" src="assets/ecuacion1.png" alt="ecuación de hipérbola abierta de derecha a izquierda"><br>
+            Hipérbola abierta de arriba abajo:
+            <img class="ejemplo" src="assets/ecuacion2.png" alt="ecuación de hipérbola abierta de arriba abajo"><br>
+            Hipérbola abierta de noreste a suroeste:
+            <img class="ejemplo" src="assets/hiperbola3.png" alt="hipérbola abierta de noreste a suroeste" width="50%"><br>
+            <img class="ejemplo" src="assets/ecuacion3.png" alt="ecuación de hipérbola abierta de noreste a suroeste"><br>
+            Hipérbola abierta de noroeste a sureste: 
+            <img class="ejemplo" src="assets/ecuacion4.png" alt="ecuación de hipérbola de noroeste a sureste"><br>
+            Hipérbola con origen en el foco derecho: 
+            <img class="ejemplo" src="assets/ecuacion5.png" alt="ecuación de hipérbola con origen de foco derecho"><br>
+            Hipérbola con origen en el foco izquierdo:
+            <img class="ejemplo" src="assets/ecuacion6.png" alt="ecuación de hipérbola con origen en el foco izquierdo">
         </p>
     </div>
     <footer>
         <p>
             Esta página web fue hecha por las estudiantes del colegio San Vicente de Paúl de 5° año "B":
             <ul>
-                <li>Ana Paula</li>
-                <li>Fabiana</li>
-                <li>Brangelis</li>
-                <li>Natasha</li>
-                <li><b>Yosselín</b></li>
+                <li>Ana Paula Mendoza Díaz</li>
+                <li>Fabiana Monjes</li>
+                <li>Brangelis López</li>
+                <li>Natasha Linarez</li>
+                <li><b>Yosselín Isea</b></li>
             </ul>
         </p>
     </footer>
